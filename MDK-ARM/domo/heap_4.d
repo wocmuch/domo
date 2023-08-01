@@ -1,0 +1,13 @@
+domo\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+domo\heap_4.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+domo\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+domo\heap_4.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+domo\heap_4.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+domo\heap_4.o: ../Core/Inc/FreeRTOSConfig.h
+domo\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+domo\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+domo\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+domo\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+domo\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+domo\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+domo\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

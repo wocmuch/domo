@@ -1,0 +1,15 @@
+domo\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
+domo\queue.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+domo\queue.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+domo\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+domo\queue.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+domo\queue.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+domo\queue.o: ../Core/Inc/FreeRTOSConfig.h
+domo\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+domo\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+domo\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+domo\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+domo\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+domo\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+domo\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+domo\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h

@@ -1,0 +1,96 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.22.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: a Lenovo, a, LIC=NHY12-9TXDR-BU94K-ZYWRL-WCZL6-RQJQW
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.22
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.22
+Dialog DLL:      DCM.DLL V1.13.9.0
+Target DLL:      CMSIS_AGDI.dll V1.27.0.0
+Dialog DLL:      TCM.DLL V1.21.0.0
+ 
+<h2>Project:</h2>
+E:\code\domo\MDK-ARM\domo.uvprojx
+Project File Date:  08/01/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'domo'
+compiling duoji_yuntai.c...
+..\Hardware\duoji_yuntai.h(8): warning:  #1295-D: Deprecated declaration duoji_yuntai_init - give arg types
+  void duoji_yuntai_init();
+..\Hardware\duoji_yuntai.c(31): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  			
+_HAL_TIM_SetCompare
+&htim2,TIM_CHANNEL_2,(uint32_t)((angle1+90)*1.11+50));//180°舵机
+..\Hardware\duoji_yuntai.c(31): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  			
+_HAL_TIM_SetCompare
+&htim2,TIM_CHANNEL_2,(uint32_t)((angle1+90)*1.11+50));//180°舵机
+..\Hardware\duoji_yuntai.c(31): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  			
+_HAL_TIM_SetCompare
+&htim2,TIM_CHANNEL_2,(uint32_t)((angle1+90)*1.11+50));//180°舵机
+..\Hardware\duoji_yuntai.c(31): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  			
+_HAL_TIM_SetCompare
+&htim2,TIM_CHANNEL_2,(uint32_t)((angle1+90)*1.11+50));//180°舵机
+..\Hardware\duoji_yuntai.c(32): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        
+_HAL_TIM_SetCompare
+&htim2,TIM_CHANNEL_3,(uint32_t)((angle2+135)*0.741+50)); //270°舵机            
+..\Hardware\duoji_yuntai.c(32): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        
+_HAL_TIM_SetCompare
+&htim2,TIM_CHANNEL_3,(uint32_t)((angle2+135)*0.741+50)); //270°舵机            
+..\Hardware\duoji_yuntai.c(32): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        
+_HAL_TIM_SetCompare
+&htim2,TIM_CHANNEL_3,(uint32_t)((angle2+135)*0.741+50)); //270°舵机            
+..\Hardware\duoji_yuntai.c(32): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        
+_HAL_TIM_SetCompare
+&htim2,TIM_CHANNEL_3,(uint32_t)((angle2+135)*0.741+50)); //270°舵机            
+..\Hardware\duoji_yuntai.c(47): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+      if (sscanf(receive_buff + 1, "%f,%f:", usart_x,usart_y) != 2)
+..\Hardware\duoji_yuntai.c(60): warning:  #223-D: function "memset" declared implicitly
+      memset(receive_buff,0,20);
+..\Hardware\duoji_yuntai.c(69): warning:  #177-D: variable "i"  was declared but never referenced
+  	static int i=0;
+..\Hardware\duoji_yuntai.c: 12 warnings, 0 errors
+linking...
+Program Size: Code=27488 RO-data=852 RW-data=176 ZI-data=21736  
+FromELF: creating hex file...
+"domo\domo.axf" - 0 Error(s), 12 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.0.pack
+                ARM::CMSIS:CORE:5.0.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.0
+
+<h2>Collection of Component include folders:</h2>
+  E:\code\domo\MDK-ARM\RTE\_domo
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include
+  D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.0
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>
